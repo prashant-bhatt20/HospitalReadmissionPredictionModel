@@ -1,0 +1,10 @@
+pandas==2.1.0
+numpy==1.24.3
+scikit-learn==1.3.0
+xgboost==2.0.0
+requests==2.31.0
+seaborn==0.12.2
+matplotlib==3.7.2
+ydata-profiling==4.6.3
+plotly==5.16.1
+kaleido

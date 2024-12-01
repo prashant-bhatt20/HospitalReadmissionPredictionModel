@@ -1,0 +1,33 @@
+{
+    "random_forest": {
+        "type": "RandomForestClassifier",
+        "params": {
+            "n_estimators": [100, 200, 300],
+            "max_depth": [10, 20, 30]
+        }
+    },
+    "gradient_boosting": {
+        "type": "GradientBoostingClassifier",
+        "params": {
+            "n_estimators": [100, 200, 300],
+            "max_depth": [3, 4, 5],
+            "learning_rate": [0.01, 0.1]
+        }
+    },
+    "logistic": {
+        "type": "LogisticRegression",
+        "params": {
+            "C": [0.1, 1.0, 10.0],
+            "penalty": ["l2"],
+            "max_iter": [100, 200, 1000]
+        }
+    },
+    "xgboost": {
+        "type": "XGBClassifier",
+        "params": {
+            "n_estimators": [100, 200, 300],
+            "max_depth": [3, 4, 5],
+            "learning_rate": [0.01, 0.1]
+        }
+    }
+}
